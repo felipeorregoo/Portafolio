@@ -1,0 +1,35 @@
+.fixy{
+    position: fixed;
+    bottom: 10vh;
+    right: 1vw;
+    width: 4rem;
+    height: 4rem;
+}
+
+.scaly:hover{
+    scale: 1.2;
+}
+
+.tranzit{
+    transition: all .2s;
+}
+
+.backToOpacity:hover{
+    opacity: 100% !important;
+}
+
+.whatsappGradient{
+    background-image: linear-gradient(to right, #075E54,#128C7E,#25D366);
+}
+
+.whatsappGradient:hover{
+    background-image: linear-gradient(to left, #075E54,#128C7E,#25D366);
+}
+
+.instaGradient{
+    background-image: linear-gradient(to left bottom, #405DE6,#833AB4,#C13584,#FD1D1D,#F77737,#FFDC80);
+}
+
+.instaGradient:hover{
+    background-image: linear-gradient(to left bottom, #FFDC80,#F77737,#FD1D1D,#C13584,#833AB4,#405DE6);
+}

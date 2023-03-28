@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="bg-black d-flex flex-wrap justify-content-around py-4">
+      <a class="text-decoration-none scaly tranzit text-white" href="#bout-me">Sobre Mí</a>
+      <a class="text-decoration-none scaly tranzit text-white" href="#project">Proyectos</a>
+      <a class="text-decoration-none scaly tranzit text-white" href="#contact">Contacto</a>
+    </nav>
+    <article class="position-relative py-5">
+      <div class="position-absolute top-0 left-0 w-100 h-100 z-n1">
+        <video class="w-100 h-100  object-fit-cover" autoplay muted loop src="./assets/video/background-duck-header.mp4">
+          Your browser doesn't support the background video!
+        </video>
+      </div>
+      <div class="row text-white g-0">
+        <div class="col-md-6 d-flex justify-content-around align-items-center">
+          <img class="rounded-circle img-fluid h-50 opacity-50 scaly tranzit backToOpacity" src="./assets/img/beanie-duck-logo.jpg" alt="Logo">
+        </div>
+        <div class="col-md-6 text-center my-auto">
+          <h3 class="display-3 opacity-50 tranzit backToOpacity">Felipe Orrego</h3>
+          <small class="opacity-50 tranzit backToOpacity">(Beanie Duck)</small>
+          <p class="fs-5 opacity-50 tranzit backToOpacity">Desarrollador web, diseñador</p>
+        </div>
+      </div>
+    </article>
+  </header>
+  <hr class="mt-0">
+  <main class="container-fluid">
+    <section>
+      <h4 class="display-4 text-center" id="bout-me">Sobre Mí</h4>
+      <div class="row justify-content-around column-gap-1 p-5 bg-light">
+        <div class="card col-md-4 mb-5">
+          <img src="./assets/img/duck-drawing-1.png" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Estudiante</h5>
+            <p class="card-text">Actualmente me encuentro estudiando desarrollo web desde cero. Empecé en este mundo
+              aproximadamente en julio de 2022</p>
+          </div>
+        </div>
+        <div class="card col-md-4 mb-5">
+          <img src="./assets/img/duck-drawing-2.png" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Desarrollo web</h5>
+            <p class="card-text">Me enfoco en desarrollo de aplicaciones web frontend, completamente responsivas usando
+              el enfoque mobile-first. Manejo lenguajes y librerias como html, css, javascript, scss, jquery, bootstrap,
+              tailwind, react y nodejs.</p>
+          </div>
+        </div>
+        <div class="card col-md-4 mb-5">
+          <img src="./assets/img/duck-drawing-3.png" class="card-img-top mt-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Diseño</h5>
+            <p class="card-text">Realizo por hobbie dibujos y diseños principalmente realizados en medibang paint, lo
+              cual he complementado en mi desarrollo web para interfaces de usuario.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="position-relative">
+      <h4 class="display-4 text-center text-white" id="project">Proyectos</h4>
+      <div class="position-absolute top-0 left-0 w-100 h-100 z-n1">
+        <video class="w-100 h-100  object-fit-cover" autoplay muted loop src="./assets/video/background-duck-section.mp4">
+          Your browser doesn't support the background video!
+        </video>
+      </div>
+      <div class="row justify-content-around column-gap-1 p-5">
+        <div class="card col-md-4 mb-5">
+          <img src="./assets/img/crud-logo.jpg" class="card-img-top mt-3" alt="frontend mentor">
+          <div class="card-body">
+            <h5 class="card-title">Frontend Mentor - Todo Crud</h5>
+            <p class="card-text">Actualmente practico con retos de frontend mentor, uno de ellos es una lista de tareas que cumple las funciones de un crud. Utilicé librerias de javascript y css, las cuales son react y tailwind.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW"><button class="btn btn-primary">Frontend Mentor</button></a>
+              <a href="https://todo-crud-frontend-mentor.netlify.app"><button class="btn btn-primary">Mi versión</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-4 mb-5">
+          <img src="./assets/img/rodolfo-portrait.png" class="card-img-top mt-3" alt="Rodolfo aicardi retrato">
+          <div class="card-body">
+            <h5 class="card-title">Diseño</h5>
+            <p class="card-text">Realizo dibujos y diseños por encargo para cualquier clase de uso, para mas información, contactarme por mis redes sociales.</p>
+            <a href="#contact"><button class="btn btn-success">Contacto</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col-6"></div>
+      <div class="col-6"></div>
+    </div>
+    <hr>
+    <section>
+      <h4 class="display-4 text-center" id="contact">Contacto</h4>
+      <div class="row justify-content-center">
+          <a class="display-4 text-white text-center text-decoration-none col-8 p-5 my-5 whatsappGradient rounded" href= https://wa.link/qipxfk"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+          <a class="display-4 text-white text-center text-decoration-none col-8 p-5 instaGradient rounded" href="https://www.instagram.com/beanie.duck/"><i class="bi bi-instagram"></i> Instagram</a>
+      </div>
+    </section>
+    <hr>
+  </main>
+  <article class="scaly tranzit fixy bg-black d-flex justify-content-center align-items-center rounded-circle">
+    <a href="#"><i class="bi bi-house text-white fs-3"></i></a>
+  </article>
+  <footer>
+    <blockquote class="text-center bg-light fs-5">By Felipe Orrego (Beanie.duck) 2023</blockquote>
+  </footer>
+</body>
+</html>
